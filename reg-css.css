@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background:url("file:///C:/Users/w17/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Html/css/pexels-sebastian-coman-travel-3609287.jpg");
+	background-size: 110%;
+}
+.menu{
+	z-index:3;
+	height:8vh;
+	width:80%;
+	position: fixed;	
+	top: 20px;
+	border-radius:40px;
+	background-color:#0D0606;
+	transform: translate(10%, 0);
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding-top:20px;
+	padding-left:10%;
+	padding-right:10%;
+}
+nav li{
+	list-style-type:none;
+	display: inline-block;
+}
+a{
+	color:#FFFF;
+	text-decoration:none
+}
+
+.block{
+	transform: translate(95%, 0);
+	opacity: 0.9;
+	margin-top:100px;
+	margin-bottom:20px;
+	background-color:#FFFF;
+	width:30%;
+	height:100%;
+	padding: 25px 30px;
+	border-radius:10px;
+}
+.block .title{
+	text-align: center;
+	font-size:16px;
+	margin: 10px 0 20px 0;
+
+}
+.block form .form-text{
+	font-size:16px;
+}
+.block form .user-form{
+	
+	}
+.block form .user-form .user-info input{
+	height: 45px;
+	width:100%;
+	margin:10px;
+	border: solid gray;
+	border-radius: 10px;
+}
+.block form .user-form .user-info select{
+	height: 45px;
+	width:101%;
+	margin: 10px;
+	border: solid gray;
+	border-radius: 10px;
+}
+
+.submit input{
+	width:60%;
+	margin:20px 90px;
+	height:50px;
+	border-radius:40px;
+	color:white;
+	background-color:black;
+	border: 2px solid black;
+}

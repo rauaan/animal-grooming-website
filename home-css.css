@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+.menu{
+	height:8vh;
+	width:80%;
+	position: fixed;	
+	top: 20px;
+	border-radius:40px;
+	background-color:#0D0606;
+	transform: translate(10%, 0);
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding-top:20px;
+	padding-left:10%;
+	padding-right:10%;
+}
+nav li{
+	list-style-type:none;
+	display: inline-block;
+}
+a{
+	color:#FFFF;
+	text-decoration:none
+}
+.intro{
+	background-color:#137D4C;
+	width:100%;
+	height:800px;
+	display: flex;
+	justify-content: space-between;
+}
+.intro-title{
+	margin-top:120px;
+	padding: 0 50px;
+}
+.intro-title,
+.intro-img{
+	flex-basis: 50%;
+}
+.intro h1{
+	color:#FFFF;
+	font-size:80px;
+	font-family: 'Montserrat', sans-serif;
+}
+.intro h2{
+	color:#FFFF;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+.intro-img{
+	padding: 90px;
+}
+.intro-img img{
+	width: 400px;
+	height: 400px;
+	border-radius:50%;
+	float: right;
+	margin-top:50px;
+}
+.services{
+	text-align:center;
+	margin-top:100px;
+	height:700px;
+}
+.serv{
+	display: flex;
+	margin-bottom:20px;
+}
+.services .serv-img{
+	margin-top:50px;
+	text-align:center;
+}
+.services img{
+	width: 300px;
+	height: 300px;
+	border-radius:50%;
+	margin:0 80px;
+}
+.services h1{
+	color:#0D0606;
+	font-size:90px;
+	font-family: 'Montserrat', sans-serif;
+}
+.services h2{
+	color:#0D0606;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.link{
+	margin:auto;
+	float:center;
+	height:50px;
+	width:30%;
+	background-color:#261C10;
+	border-radius:30px;
+	font-size:28px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about-us{
+	text-align:center;
+	height: 500px;
+	background-color:#0D0606;
+
+}
+.about-us h1{
+	color:#FFFF;
+	font-size:80px;
+	font-family: 'Montserrat', sans-serif;
+}
+.about-us h2{
+	color:#FFFF;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+.abt-text{
+	padding:0 60px;
+}
+.about-us iframe{
+	width:100%;
+	height:150px;
+	border:none;
+}

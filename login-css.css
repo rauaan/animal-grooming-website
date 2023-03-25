@@ -1,0 +1,119 @@
+body{
+	height:100hv;
+	background:url("file:///C:/Users/w17/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Html/css/pexels-sebastian-coman-travel-3609287.jpg");
+	background-size: 110%;
+	margin:0;
+	padding:0;
+}
+.menu{
+	height:8vh;
+	width:80%;
+	position: fixed;	
+	top: 20px;
+	border-radius:40px;
+	background-color:#0D0606;
+	transform: translate(10%, 0);
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding-top:20px;
+	padding-left:10%;
+	padding-right:10%;
+}
+nav li{
+	list-style-type:none;
+	display: inline-block;
+}
+a{
+	color:#FFFF;
+	text-decoration:none
+}
+
+.log-in{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:400px;
+	background-color:white;
+	border-radius: 10px;
+	opacity:0.9;
+}
+.log-in .title{
+	text-align:center;
+}
+.log-in form{
+	padding:0 40px;
+}
+form .field {
+	position: relative;
+	border-bottom: 2px solid gray;
+	margin:30px 0;
+}
+.field input{
+	width:100%;
+	padding: 0 5px;
+	height: 40px;
+	border: none;
+	font-size: 16px;
+	outline:none;
+	background:none;
+}
+.field label{
+	position: absolute;
+	top:50%;
+	left: 5px;
+	color:black;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+input[type="submit"]{
+	width:100%;
+	margin:20px 0 0 0;
+	height:50px;
+	border-radius:40px;
+	color:white;
+	background-color:black;
+	border: 2px solid black;
+	transform: translate(0,-20%);
+}
+.field span::before{
+	content:'';
+	position:absolute;
+	top:40px;
+	left:0;
+	width:0%;
+	height:3px;
+	background: black;
+
+}
+.date label{
+	left: 5px;
+	color:black;
+}
+.date input{
+	width:100%;
+	padding: 0 5px;
+	height: 40px;
+	border-radius:10px;
+	font-size: 16px;
+	outline:none;
+	background:none;
+	border-color:black;
+}
+.link a{
+	color:black;
+	margin:0 40px;
+}
+.field input:focus ~ label,
+.field input:valid ~ label{
+	top:-5px;
+	transition: .5s;
+}
+.field input:focus ~ span::before,
+.field input:valid ~ span::before{
+	width:100%;
+	transition: .5s;
+}
